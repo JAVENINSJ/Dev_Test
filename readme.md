@@ -25,10 +25,4 @@ To receive a ticket draft, make a request to "/getTicketDraft"
 The ticket draft will be returned
 
 ## Index page
-There is an index page with some basic options available located at root aswell as at the end of this document. (Note that the links bellow will only work if the application is launched on localhost:8080)
-
-- [Create a trip to Vilnius for 10€](localhost:8080/newDraft/Vilnius/10)
-- [Set VAT to 30%](localhost:8080/setVAT/30)
-- [Add an adult with 1 luggage](localhost:8080/addAdult/1)
-- [Add a child with 1 luggage](localhost:8080/addChild/1)		
-- [Get ticket price draft](localhost:8080/getTicketDraft)			
+There is an index page with some basic options available located at root.
