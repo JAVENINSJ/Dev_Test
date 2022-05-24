@@ -3,7 +3,7 @@
 The project opens a webservice on port :8080
 
 ## Creating a ticket draft
-To create a ticket draft first create it by requesting "/localHost/{route}/{basePrice}" where:
+To create a ticket draft first create it by requesting "/newDraft/{route}/{basePrice}" where:
 route - Location to where the trip is going
 basePrice - Double value of how much the base ticket costs. If value is < 0, the base price will be set as 0.
 
